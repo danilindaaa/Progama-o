@@ -1,0 +1,13 @@
+<?php
+
+$ns = [10, 20, 30, 40, 50];
+$soma = 0;
+foreach ($ns as $n) {
+    $soma += $n;
+} 
+
+$media = $soma / count($ns);
+echo"soma: $soma\n";
+echo"media: $media\n";
+
+?>
