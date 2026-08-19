@@ -1,0 +1,38 @@
+<?php
+class produto {
+   public string $nome;
+   public float $preço;
+   public int $quantidade;
+   public $tamanho;
+}
+
+
+$meuproduto = new produto();
+$meuproduto->nome = "camiseta";
+$meuproduto->preço = 50.00;
+$meuproduto->quantidade = 3;
+
+$meuproduto2 = new produto();
+$meuproduto2->nome = "tenis";
+$meuproduto2->preço = 200.00;
+$meuproduto2->quantidade = 1;
+
+echo $meuproduto->nome . "\n"; 
+echo $meuproduto->preço . "\n";
+echo $meuproduto->quantidade;
+
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
